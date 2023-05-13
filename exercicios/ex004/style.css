@@ -1,0 +1,83 @@
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to top, #2c2257, #000000);
+    width: 100vw;
+    height: 100vh;
+   /* display: flex;  Para ficar lado a lado */
+   /*d = #
+class = . */
+
+    /*.flex-item:child(1) para mexe em cada caixa*/
+
+ /* flex-direction: column; define a direção em que os intem são colocados no container*/
+
+/* justify-content: flex-end; ( colocar a direita) */
+/* justify-content: center; ( colocar no meio) */
+/* justify-content: space-between; ( pega os elementos e distribrui) */
+/* justify-content: space-around; ( pega os espaços dos  elementos e distribrui) */
+/* justify-content: space-evenly; ( deixa os espaços dos  elementos iguais) */
+
+/*  .flex-start: os itens se alinham no lado esquerdo do contêiner.
+    .flex-end: os itens se alinham no lado direito do contêiner.
+    .center: os itens se alinham no centro do contêiner.
+    .space-between: Os itens são exibidos com espaçamento igual entre eles.
+    .space-around: Os itens são exibidos com espaçamento igual ao redor deles. */
+
+    /*  almente e aceita os seguintes valores: align-items
+
+flex-start: os itens se alinham na parte superior do contêiner.
+flex-end: os itens se alinham na parte inferior do contêiner.
+center: os itens se alinham no centro vertical do contêiner.
+baseline: os itens são exibidos na linha de base do contêiner.
+stretch: os itens são esticados para caber no contêiner. */
+
+}
+
+ h1 {
+    color: white;
+     text-align: center;  
+     padding: 70px;
+     font-size: 5rem;
+     text-align: center;
+}
+
+#botao1 {
+    width: 100%;
+    background: rgb(159, 81, 233);
+    color: white;
+    padding: 20px 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.6rem;
+    box-shadow: 0px 10px 40px #00000056;
+    box-sizing: border-box;
+    
+   
+}
+
+h2 {
+    color: rgb(241, 229, 229);   
+    font-size: 1.3rem;
+    text-align: right;
+    padding: 10px 10px;
+}
+
+.flex-container {
+    
+    display: flex;
+    flex-direction: row; /* Eixo principal */
+    justify-content: center;
+}
+
+.flex-item {
+    width: 400px;
+    height: 100px;
+    margin: 20px;
+}
