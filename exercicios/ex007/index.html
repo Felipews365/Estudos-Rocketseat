@@ -12,14 +12,27 @@
     <form action="">
         <fieldset>
             <legend>Contato</legend>
+
             <label for="inome">Nome</label>
-            <input type="text" name="Nome" id="inome">
+            <br>
+            <input type="text" name="Nome" id="inome" placeholder="Seu nome" required>
+            <br>
+            <br>
 
             <label for="imail">Email</label>
-            <input type="email" name="email" id="imail">
+            <br>
+            <input type="email" name="email" id="imail" placeholder="Seu email" required>
+            <br>
+            <br>
 
-            <label for="imens">Mensagem</label>
-            <input type="text" name="mensagem" id="imens">
+            <label for="mens">Mensagem</label>
+            <br>
+            <textarea name="message" id="mens" cols="30" rows="10" placeholder="Deixe seu comentário"></textarea>
+            <br>
+            <br>
+
+            
+            <button type="submit" name="ienviar">Enviar</button>
         </fieldset>
 
     </form>
