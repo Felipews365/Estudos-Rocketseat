@@ -9,19 +9,32 @@
 <body>
     <script>
 
-        let j1 = prompt('jogador 1 digite um número');
-         j1 = parseFloat(j1);
+        let nj1 = prompt('jogador 1, digite um número');
+         nj1 = parseFloat(nj1);
  
-         let j2  = prompt('jogador 2 digite outro número');
-             j2 = parseFloat(j2);
+         let nj2  = prompt('jogador 2, digite outro número');
+             nj2 = parseFloat(nj2);
          
-         alert( j1 == j2);
-
-         if(media > 5){
-            alert("Parabéns! Você foi aprovado");
-         } else {
-            alert("Desculpe, mas não foi dessa vez");
+         if( nj1 === nj2);{
+            alert('voces empataram');
+            }  else {
+            let nSorteado = parseInt(Math.random() * 2);
+            if(nSorteado === 0){
+                if(nJ1 < nj2){
+                    alert('ganhou o jogador 1');
+                } else {
+                    alert('ganhou o jogador 2');
+                }
+            } else {
+                if(nj1 > nj2){
+                    alert('ganhou o jogador 1')
+                } else {
+                    alert('ganhou ojogador 2')
+                }
+            }
          }
+            
+         
 
          
  
